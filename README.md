@@ -1,6 +1,6 @@
 <p align="center">
   
-  <b><h2>winBALM_parallel</h2></b>
+  <b><h2>Windows BALM</h2></b>
 </p>
 
 We modified BALM's code to run on **Windows** and improved time performance by **30 percent** through additional optimizations (additional parallel operations). 😁
