@@ -59,3 +59,5 @@ Before running the winBALM_parallel, please set **the path (BASE_DIR, SAVE_DIR, 
 If you want **to reduce the frame**, you can use **limit frame.**
 
 For hyperparameters other than **voxel_size, eigen value array,** etc., **refer to the top of ba_voxel.hpp** for hyperparameters you want to add.
+
+You can check **the time improvement by looking at the optimization time in output** when the **DO_PARALLEL option is set to no and parallel.**
