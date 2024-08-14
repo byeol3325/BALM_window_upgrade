@@ -51,7 +51,7 @@ vcpkg install eigen3
 
 
 ## Environments 
-You can configure the environment by running **.vcproj** in the folder through visual studio. **(Please check the environment variables carefully.)**
+You can configure the environment by running **.vcproj** in the folder(winBALM_parallel) through visual studio. **(Please check the environment variables carefully.)**
 
 ## Run winBALM_parallel
 Before running the winBALM_parallel, please set **the path (BASE_DIR, SAVE_DIR, SCENE_NAME)** properly in **hyperparameters.yaml.**
