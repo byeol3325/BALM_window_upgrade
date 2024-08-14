@@ -30,3 +30,20 @@ Follow [PCL Installation](https://pointclouds.org/) (1.10 recommended)
 Follow [Eigen Installation](https://eigen.tuxfamily.org/index.php?title=Main_Page) (3.3.7 recommended)
 
 You can easily download those using **vcpkg.**
+
+```
+# open Command Prompt (cmd) and type:
+git clone https://github.com/Microsoft/vcpkg.git
+cd vcpkg
+.bootstrap-vcpkg.bat
+```
+
+**You need to register vcpkg.exe in environment variables.**
+
+If you download vcpkg and add it to the environment variables,
+```
+# open Command Prompt (cmd) and type:
+vcpkg integrate install
+vcpkg install pcl
+vcpkg install eigen3
+```
