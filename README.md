@@ -1,5 +1,6 @@
-<p align="center", style="font-size: 36px;">
-  <b>winBALM_parallel version</b>
+<p align="center">
+  
+  <b><h2>winBALM_parallel version</h2></b>
 </p>
 
 We modified BALM's code to run on **Windows** and improved time performance by **30 percent** through additional optimizations (additional parallel operations). 😁
