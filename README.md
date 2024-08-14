@@ -50,7 +50,11 @@ vcpkg install eigen3
 
 
 ## Environments 
-
+You can configure the environment by running **.vcproj** in the folder through visual studio. **(Please check the environment variables carefully.)**
 
 ## Run winBALM
+Before running the winBALM, please set **the path (BASE_DIR, SAVE_DIR, SCENE_NAME)** properly in **hyperparameters.yaml.**
 
+If you want **to reduce the frame**, you can use **limit frame.**
+
+For hyperparameters other than **voxel_size, eigen value array,** etc., **refer to the top of ba_voxel.hpp** for hyperparameters you want to add.
