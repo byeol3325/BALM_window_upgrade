@@ -47,3 +47,10 @@ vcpkg integrate install
 vcpkg install pcl
 vcpkg install eigen3
 ```
+
+
+## Environments 
+
+
+## Run winBALM
+
