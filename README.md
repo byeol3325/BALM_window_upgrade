@@ -3,7 +3,8 @@
   <b><h2>Windows BALM</h2></b>
 </p>
 
-We modified BALM's code to run on **Windows** and improved time performance by **30 percent** through additional optimizations (additional parallel operations). 😁
+We modified BALM's code to run on **Windows** and **improved time performance by 30 percent** through additional optimizations (additional parallel operations). 😁
+🐶 If you have any requests, please contact me. It's [my blog](https://byeol3325.github.io/) and there will be emails. 🐶
 
 ### Reference paper: [Efficient and Consistent Bundle Adjustment on Lidar Point Clouds](https://arxiv.org/pdf/2209.08854)
 ### Reference code: [BALM 2.0](https://github.com/hku-mars/BALM)
@@ -61,3 +62,5 @@ If you want **to reduce the frame**, you can use **limit frame.**
 For hyperparameters other than **voxel_size, eigen value array,** etc., **refer to the top of ba_voxel.hpp** for hyperparameters you want to add. 😁
 
 You can check **the time improvement by looking at the optimization time in output** when the **DO_PARALLEL option is set to no and parallel.** 😁
+
+🐶 If you have any requests, please contact me. It's [my blog](https://byeol3325.github.io/) and there will be emails. 🐶
