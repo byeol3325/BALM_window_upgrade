@@ -1,0 +1,23 @@
+BASE_DIR: # your path data
+  type: string
+  value: "D:~~~"
+SAVE_DIR: # save path data
+  type: string
+  value: "D:~~~"
+SCENE_NAME: # like data type
+  type: string
+  value: "data1"
+LIMIT_FRAME:
+  type: int
+  value: 300
+
+VOXEL_SIZE:
+  type: float
+  value: 1.8
+EIGEN_VALUE_ARRAY:
+  type: string
+  value: "1/16, 1/16, 1/16, 1/9"
+
+DO_PARALLEL: # "no" or "parallel"
+  type: string
+  value: "parallel"
