@@ -1,5 +1,5 @@
 <p align="center">
-  <b>BALM window version</b>
+  <b>winBALM_parallel version</b>
 </p>
 
 We modified BALM's code to run on **Windows** and improved time performance by **30 percent** through additional optimizations (additional parallel operations). 😁
@@ -52,8 +52,8 @@ vcpkg install eigen3
 ## Environments 
 You can configure the environment by running **.vcproj** in the folder through visual studio. **(Please check the environment variables carefully.)**
 
-## Run winBALM
-Before running the winBALM, please set **the path (BASE_DIR, SAVE_DIR, SCENE_NAME)** properly in **hyperparameters.yaml.**
+## Run winBALM_parallel
+Before running the winBALM_parallel, please set **the path (BASE_DIR, SAVE_DIR, SCENE_NAME)** properly in **hyperparameters.yaml.**
 
 If you want **to reduce the frame**, you can use **limit frame.**
 
