@@ -9,6 +9,23 @@ We modified BALM's code to run on **Windows** and improved time performance by *
 
 We made the code run in a Windows Visual Studio environment. You can use any version of visual studio **19** or **22** you want. 😁
 
-```shell
-visual studio
+
+## Prerequisited
+
+### 1.1 Windows 10/11 and Visual studio 19/22
+
+check your windows version
+
 ```
+# To check your Windows version, open Command Prompt (cmd) and type:
+winver
+```
+
+Install [Visual Studio](https://visualstudio.microsoft.com/ko/downloads/)
+
+### 1.2 PCL and Eigen
+
+Follow [PCL Installation](https://pointclouds.org/) (1.10 recommended)
+Follow [Eigen Installation](https://eigen.tuxfamily.org/index.php?title=Main_Page) (3.3.7 recommended)
+
+You can easily download those using **vcpkg.**
