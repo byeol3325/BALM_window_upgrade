@@ -4,6 +4,7 @@
 </p>
 
 We modified **BALM** code to run on **Windows** and **improved time performance by 30 percent** through additional optimizations (additional parallel operations). 😁
+
 🐶 If you have any requests, please contact me. It's [my blog](https://byeol3325.github.io/) and there will be emails. 🐶
 
 ### Reference paper: [Efficient and Consistent Bundle Adjustment on Lidar Point Clouds](https://arxiv.org/pdf/2209.08854)
