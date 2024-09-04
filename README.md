@@ -4,6 +4,8 @@
 </p>
 
 We modified **BALM** code to run on **Windows** and **improved time performance by 30 percent** through additional optimizations (additional parallel operations). 😁
+If the winsize is **the same size as the data(max size)**, **the speed increases by up to 30%**. If the winsize is not large **(less than 25)**, **the speed may be slightly slower** because **a thread must be allocated for each winsize.**
+
 
 🐶 If you have any requests, please contact me. It's [my blog](https://byeol3325.github.io/) and there will be emails. 🐶
 
